@@ -76,3 +76,4 @@ https://www.w3schools.com/html/html_attributes.asp
 > - Text Contents
 >   - 제목, 단락, 목록, 링크, 테이블(표)
 > - Multimedia Contents
+>   - 이미지, 비디오, 오디오
