@@ -105,7 +105,6 @@ https://www.w3schools.com/html/html_links.asp
 ```
 
 
-
 ### HTML list
 https://www.w3schools.com/html/html_lists.asp
 
@@ -113,9 +112,13 @@ https://www.w3schools.com/html/html_lists.asp
 - 순서있는 목록 : ol - (O)rdered (L)ist
 - 목록 항목 : li - (L)ist (I)tem
 - 실명 목록
-
+  - dl : (D)escription (L)ist
+  - dt : (D)escription (T)title
+  - dd : (D)escription (D)ata
+- 원하는 목록의 형태 : 직접 입력해서 사용
 
 ```
+
 <ul>
   <li>항목 내용</li>
 </ul>
@@ -123,4 +126,9 @@ https://www.w3schools.com/html/html_lists.asp
 <ol>
   <li>항목 내용</li>
 </ol>
+
+
+<dl>
+  <dt>목록 주제(제목)</dt>
+  <dd>주제에 대한 설명</dd>
 ```
