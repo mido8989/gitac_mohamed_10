@@ -7,7 +7,7 @@ https://www.w3schools.com/html/html_intro.asp
 > HTML : Hyper Text Markup Language
 >
 > - 버전 : HTML5(HTML 5.2) - 표준화 2014
-> - 웹페이지 콘텐츠
+> - 웹페이지 콘텐츠 표시
 > - 웹페이지 구조 표시
 
 ## HTML Element
@@ -33,7 +33,7 @@ https://www.w3schools.com/html/html_elements.asp
 
  <div>
   <p>택스트</p>
-  </div>
+ </div>
 </section>
 
 1. p 태그 기준
@@ -70,3 +70,9 @@ https://www.w3schools.com/html/html_attributes.asp
 - HTML Elment에 추가 정보를 제공
 - 시작태그에 작성
 - name="value" 형식으로 구성
+
+## HTML Contents 표시 Element 
+
+> - Text Contents
+>   - 제목, 단락, 목록, 링크, 테이블(표)
+> - Multimedia Contents
