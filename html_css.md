@@ -77,10 +77,23 @@ https://www.w3schools.com/html/html_attributes.asp
 >   - 이미지, 비디오, 오디
 
 ### HTML Heading 
-
+https://www.w3schools.com/html/html_headings.asp
 - h : (h)heading : 제목 표시 태그
 - h1 ~ h6 : h1 - 가장 큰 제목 
 
 ### HTML Paragraph
+https://www.w3schools.com/html/html_paragraphs.asp
 
 - p : (p)aragraph : 단락 표시 태그
+
+
+### HTML link
+https://www.w3schools.com/html/html_links.asp
+
+- 다른 페이지로 연결 
+- a : (a)nchor
+- href : hypertext Reference : 웹페이지 참조주소
+
+```
+<a href="이동할웹페이지의url">링크이름</a>
+```
