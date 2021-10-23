@@ -85,7 +85,9 @@ https://www.w3schools.com/html/html_headings.asp
 https://www.w3schools.com/html/html_paragraphs.asp
 
 - p : (p)aragraph : 단락 표시 태그
-
+- br : line (br)eak - 강제 줄바꿈 / 빈요소(Emapty Element)
+- &nbsp; : (N)on-(B)reak (Sp)ace - Entity code
+- hr : (H)orizontal (R)ules - 수평선 / 빈 요소(Empty Element)
 
 ### HTML link
 https://www.w3schools.com/html/html_links.asp
@@ -95,5 +97,30 @@ https://www.w3schools.com/html/html_links.asp
 - href : hypertext Reference : 웹페이지 참조주소
 
 ```
-<a href="이동할웹페이지의url">링크이름</a>
+
+<a href="이동할웹페이지의url">링크이름</a> target="_balnk">링크이름</a>
+
+
+- target="_blank" : 새 찯 열기
+```
+
+
+
+### HTML list
+https://www.w3schools.com/html/html_lists.asp
+
+- 순서없는 목록 : ul - (u)nordered (L)ist
+- 순서있는 목록 : ol - (O)rdered (L)ist
+- 목록 항목 : li - (L)ist (I)tem
+- 실명 목록
+
+
+```
+<ul>
+  <li>항목 내용</li>
+</ul>
+
+<ol>
+  <li>항목 내용</li>
+</ol>
 ```
