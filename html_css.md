@@ -75,3 +75,12 @@ https://www.w3schools.com/html/html_attributes.asp
 >   - 제목, 단락, 목록, 링크, 테이블(표)
 > - Multimedia Contents
 >   - 이미지, 비디오, 오디
+
+### HTML Heading 
+
+- h : (h)heading : 제목 표시 태그
+- h1 ~ h6 : h1 - 가장 큰 제목 
+
+### HTML Paragraph
+
+- p : (p)aragraph : 단락 표시 태그
