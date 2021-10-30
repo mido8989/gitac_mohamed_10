@@ -159,5 +159,35 @@ https://www.tablesgenerator.com/html_tables#
  controls="true" => controls
  ```
 
-
 ### Youtube Video
+
+## HTML Structure
+
+
+- 웹페이지의 영역구분 / 배치
+
+> 웹페이지의 HTML Contents별 영역 구분 : HTML
+>
+> 구분된 영역의 배치 : CSS
+
+### HTML Semantic
+https://www.w3schools.com/html/html5_semantic_elements.asp
+
+- Semantic Element Element
+  - 영역 구분하는 Element를 의미를 부여해서 사용
+
+```
+<header></header> : 로고, 로그인, 메뉴 상단 내용
+<nav></nav> : (nav)igation - 메뉴
+<section></section> : Contents
+<article></article> : Contents
+<aside></aside> : 부수적인 contents(광고)
+<footer></footer> : 하단 페이지 contents(개인정보처리방침, 이용약관, 사이트맵)
+<figure></figure> : 비주얼 contents 
+```
+
+### HTML Container Element(non-semantic)
+
+- div : (div)ision
+- span : 
+  - 의미있게 사용하지 않고 단순히 Group화 할 때 사용
