@@ -214,3 +214,23 @@ https://www.w3schools.com/html/html_blocks.asp
 > - 박스모델이 적용되지 않음
 > - HTML 페이지의 구조/레이아웃을 구성하는 데 사용하지 않음
 
+```
+(O)
+<div>
+  <span>Hello World</p>
+</div>
+
+(X)
+<span>
+  <div>Hello World</div>
+</span>
+
+(예외)
+<a href="url">
+  <div>Hello World</div>
+</a>
+```
+
+### HTML File Path / URL
+
+- URL : Uniform Resource Locator
