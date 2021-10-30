@@ -275,3 +275,13 @@ images/photo.jpg
 => ../images/photo.jpg
 ../ : 상위 풀더 
 ```
+
+### HTML head
+https://www.w3schools.com/html/html_head.asp
+
+- title : 웹 페이지의 제목
+- meta : 웹 페이지 관련 부가 정보 표시
+```
+<meta charset="UTF-8"> : 문자 세트 지정
+UTF-8 : universal 문자 인코딩 방식 - 영어를 포함한 세계언어를 표시 가능
+```
