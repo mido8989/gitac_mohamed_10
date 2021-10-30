@@ -170,6 +170,10 @@ https://www.tablesgenerator.com/html_tables#
 >
 > 구분된 영역의 배치 : CSS
 
+- 영역 배치의 흐름
+  - 세로, 가로 방향 모두 한 가지로 연결되는 흐름 구성
+  - 세로 흐름이 가로 흐름보다 우선되어야 함
+
 ### HTML Semantic
 https://www.w3schools.com/html/html5_semantic_elements.asp
 
@@ -189,5 +193,11 @@ https://www.w3schools.com/html/html5_semantic_elements.asp
 ### HTML Container Element(non-semantic)
 
 - div : (div)ision
-- span : 
+- span 
   - 의미있게 사용하지 않고 단순히 Group화 할 때 사용
+
+### HTML Block & Inline Element
+https://www.w3schools.com/html/html_blocks.asp
+
+- 화면에 표시되는 특성으로 구분하는 기준(디자인 기준)
+
