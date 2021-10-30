@@ -234,3 +234,44 @@ https://www.w3schools.com/html/html_blocks.asp
 ### HTML File Path / URL
 
 - URL : Uniform Resource Locator
+  - File Identifier(파일 식별자)
+  - 네트워크 상에서 자원(파일)의 위치를 표시하는 자세한 주소
+  - 웹페이지를 찾기위한 주소
+
+> 절대 경로/URL 방식
+```
+Ex)
+주소표시 : 국가 - 시/도 - 시/군/구 - 동/읍/면 - 상세주소
+
+- 출발위치에 상관없이 항상 최종 목적지에 도착할 수 있음
+- 주소의 길이가 길게 표시됨
+
+src="https://media.audleytravel.com/-/media/images/home/north-africa-and-the-middle-east/egypt/country-guides/what-to-see-in-egypt/istock_45122734_giza_pyramids.jpg?q=79&w=1920&h=640 alt=""
+
+- 서버주소(도메인)부터 시작 => 자세한 주소 표시
+```
+
+> 상대 경로/URL 방식
+```
+Ex)
+주소표시 : 필요에 따라 짧은 주소 표시
+
+상세주소
+동/읍/면 - 상세주소
+시/군/구 - 동/읍/면 - 상세주소
+
+- 출발위치에 따라서 최종 목적지 표시가 달라질 수 있음
+- 주소 길이가 짧게 표시됨
+
+photo.jpg
+images/photo.jpg
+.../images/photo.jpg
+
+- 기준 위치에 따라 필요한 경로/주소만 표시하는 것
+
+- Web - images - photo.jpg
+      - html - page.html(photo.jpg 파일을 포함)
+
+=> ../images/photo.jpg
+../ : 상위 풀더 
+```
