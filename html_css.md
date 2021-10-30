@@ -73,7 +73,7 @@ https://www.w3schools.com/html/html_attributes.asp
 
 > - Text Contents
 >   - 제목, 단락, 목록, 링크, 테이블(표)
-> - Multimedia Contents
+> - Multimedia Contents / Embeded Contents
 >   - 이미지, 비디오, 오디
 
 ### HTML Heading 
@@ -132,3 +132,6 @@ https://www.w3schools.com/html/html_lists.asp
   <dt>목록 주제(제목)</dt>
   <dd>주제에 대한 설명</dd>
 ```
+- HTML Table Generator
+
+https://www.tablesgenerator.com/html_tables#
