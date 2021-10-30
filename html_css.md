@@ -132,6 +132,32 @@ https://www.w3schools.com/html/html_lists.asp
   <dt>목록 주제(제목)</dt>
   <dd>주제에 대한 설명</dd>
 ```
+### HTML Table
+
 - HTML Table Generator
 
 https://www.tablesgenerator.com/html_tables#
+
+
+### HTML Image
+
+- img : 이미지 첨부
+- src : (s)ou(rc)e - 이미지 경로/이름
+- alt : (alt)ernative - 대체 텍스트 
+
+
+
+### HTML Video
+
+- video
+- controls, autoplay, loop, muted : 
+ - HTML5에서 추가된 속성 : 속성 이름만 사용
+ - 사용 여부에 대한 표시
+- autoplay 적용시 muted를 같이 적용해야 하는 경우를 고려해함
+
+ ```
+ controls="true" => controls
+ ```
+
+
+### Youtube Video
