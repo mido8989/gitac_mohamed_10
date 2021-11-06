@@ -431,7 +431,7 @@ P {
 ```
 
 - text-align : 텍스트 정렬
-  - left, right, center, justify
+  - left(default), right, center, justify
 
 - text-decoration : 텍스트 줄
   - overline, line-through, underline, none
@@ -442,4 +442,31 @@ P {
   - 양수, 음수 사용 가능
 
 - line-height : 줄 높이
-  - px, 배수 표현
+  - 고정값 : px
+  - 배수값 : 소수점 포함, 단위를 표시하지 않음, 글꼴 크기에 비례
+
+- white-space : 줄바꿈 설정
+  - wrap(default), nowrap
+
+### CSS Font
+https://www.w3schools.com/css/cs
+
+- font-family : 글꼴 종류
+  - 웹페이지에 지정된 Font 파일을 사용자 PC에 설치된 폰트중에서 찾음
+    - 웹 안전 폰트 : 굴림, 돋움, Arial, Verdana ...
+  - FallBack : 글꼴 대비책
+```
+font-family: 글림, 돋움, sans-serif;
+
+1. 굴림 폰트를 렌터링 시도
+2. 돋움 폰트를 렌더링 시도
+3. sans-serif(브라우저 기본폰트) 폰트를 렌터링
+```
+
+- 웹 폰트
+  - 폰트 파일을 서버에 업로드해서, 사용자가 웹사이트에 접속했을 때 똑같은 폰트를 적용할 수 있도록 하는 기술
+  - 웹폰트 파일 형식 : eot, woff, woff2
+
+- 웹폰트 서비스
+  - google font : 영문, 한글
+  - noonnu font : 한글
