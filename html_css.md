@@ -319,7 +319,6 @@ https://www.w3schools.com/html/html_classes.asp
 <div class="container">콘텐츠</div>
 <div id="para" class="section">구조</div>
 
-
 // CSS
 - Element 선택자
 p {
@@ -370,3 +369,24 @@ p.sentence{}
     - 프린터
     - 컬러모드 : C(yan)M(agenta)Y(ellow)(blac)K
 
+- RGB 컬러모드에서 색 표현 
+  - 각각의 색 표현 용량 : Red(8bit), Green(8bit), Blue(8bit)
+  - 24bit true color : 약 1700만개 색 표현
+  - 10진수 표현(0~9)
+    - rgb(red 값(0~255), green 값(0~255), blue 값(0~255))
+    - Ex) rgb(100,50,245)
+  - 16진수 표현 (0~9, A(10),B(11),C(12),D(13),E(14),F(15))
+    - #R(AA)G(0E)B(FF)
+    - Ex) #3A79BF
+
+> 컴퓨터에서 사용하는 진법(진수) - 2진수(0,1)
+>
+> 용량 단위
+> - bit : 데이터 저장 최소 단위
+> > 저장 공간 1칸 : 0,1 중에 하나를 저장
+>
+> - byte : 1byte = 8bit
+> > byte < KB < MB < GB < TB
+>
+> 용량 계산
+> - 1byte = 8bit가 저장할 수 있는 데이터의 개수 : 256개(0~255)
