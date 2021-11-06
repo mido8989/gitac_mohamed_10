@@ -392,3 +392,54 @@ p.sentence{}
 > - 1byte = 8bit가 저장할 수 있는 데이터의 개수 : 256개(0~255)
 
 ## CSS 상속
+
+- 조상요소, 부모요소에 적용된 CSS style이 자식요소, 자손요소에 상속되어 적용되는 현상
+- 모든 CSS 속성이 상속되는 것은 아님
+- 모든 HTML Element가 상속되는 것은 아님
+
+```
+<div>
+  <p>단락</p>
+  </div>
+
+div{
+  color:red;
+}
+
+* div에 적용한 색이 p에도 상속되어 적용됨
+```
+
+## CSS property(속성)
+
+- HTML Contents Styling
+  - Text Contents Styling
+  - Multi media Contents Styling
+
+- HTML Structure
+
+## Text Contents Styling
+
+### CSS Text
+https://www.w3schools.com/css/css_text.asp
+
+- color : text color 지정
+
+```
+P {
+  color:#10c7e3;
+}
+```
+
+- text-align : 텍스트 정렬
+  - left, right, center, justify
+
+- text-decoration : 텍스트 줄
+  - overline, line-through, underline, none
+
+- text-indent : 들여쓰기
+
+- letter-spacing :글자 간격
+  - 양수, 음수 사용 가능
+
+- line-height : 줄 높이
+  - px, 배수 표현
