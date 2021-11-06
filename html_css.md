@@ -74,51 +74,52 @@ https://www.w3schools.com/html/html_attributes.asp
 > - Text Contents
 >   - 제목, 단락, 목록, 링크, 테이블(표)
 > - Multimedia Contents / Embeded Contents
->   - 이미지, 비디오, 오디
+>   - 이미지, 비디오, 오디오
 
-### HTML Heading 
+### HTML Heading
+
 https://www.w3schools.com/html/html_headings.asp
-- h : (h)heading : 제목 표시 태그
-- h1 ~ h6 : h1 - 가장 큰 제목 
+
+- h : (h)eading : 제목 표시 태그
+- h1 ~ h6 : h1 - 가장 큰 제목
 
 ### HTML Paragraph
+
 https://www.w3schools.com/html/html_paragraphs.asp
 
-- p : (p)aragraph : 단락 표시 태그
-- br : line (br)eak - 강제 줄바꿈 / 빈요소(Emapty Element)
+- p : (p)aragraph - 단락 표시 태그
+- br : line (br)eak - 강제 줄바꿈 태그 / 빈 요소(Empty Element)
 - &nbsp; : (N)on-(B)reak (Sp)ace - Entity code
-- hr : (H)orizontal (R)ules - 수평선 / 빈 요소(Empty Element)
+- hr : (H)orozontal (R)ule - 수평선 / 빈 요소(Empty Element)
 
 ### HTML link
+
 https://www.w3schools.com/html/html_links.asp
 
-- 다른 페이지로 연결 
+- 다른 페이지로 연결
 - a : (a)nchor
-- href : hypertext Reference : 웹페이지 참조주소
+- href : Hypertext Reference : 웹페이지 참조주소
 
 ```
+<a href="이동할웹페이지의url" target="_blank">링크이름</a>
 
-<a href="이동할웹페이지의url">링크이름</a> target="_balnk">링크이름</a>
-
-
-- target="_blank" : 새 찯 열기
+target="_blank" : 새 창(탭) 열기
 ```
-
 
 ### HTML list
+
 https://www.w3schools.com/html/html_lists.asp
 
-- 순서없는 목록 : ul - (u)nordered (L)ist
+- 순서없는 목록 : ul - (U)nordered (L)ist
 - 순서있는 목록 : ol - (O)rdered (L)ist
 - 목록 항목 : li - (L)ist (I)tem
-- 실명 목록
+- 설명 목록
   - dl : (D)escription (L)ist
-  - dt : (D)escription (T)title
+  - dt : (D)escription (T)itle
   - dd : (D)escription (D)ata
 - 원하는 목록의 형태 : 직접 입력해서 사용
 
 ```
-
 <ul>
   <li>항목 내용</li>
 </ul>
@@ -127,42 +128,41 @@ https://www.w3schools.com/html/html_lists.asp
   <li>항목 내용</li>
 </ol>
 
-
 <dl>
   <dt>목록 주제(제목)</dt>
   <dd>주제에 대한 설명</dd>
+</dl>
 ```
+
 ### HTML Table
 
-- HTML Table Generator
+- HTML table generator
 
-https://www.tablesgenerator.com/html_tables#
-
+https://www.tablesgenerator.com/html_tables
 
 ### HTML Image
 
 - img : 이미지 첨부
 - src : (s)ou(rc)e - 이미지 경로/이름
-- alt : (alt)ernative - 대체 텍스트 
-
+- alt : (alt)ernative - 대체 텍스트
 
 
 ### HTML Video
 
 - video
-- controls, autoplay, loop, muted : 
- - HTML5에서 추가된 속성 : 속성 이름만 사용
- - 사용 여부에 대한 표시
-- autoplay 적용시 muted를 같이 적용해야 하는 경우를 고려해함
+- controls, autoplay, loop, muted
+  - HTML5에서 추가된 속성 : 속성 이름만 사용
+  - 사용 여부에 대한 표시
+- autoplay 적용시 muted를 같이 적용해야 하는 경우를 고려해야함
 
- ```
- controls="true" => controls
- ```
+
+```
+controls="true" => controls
+```
 
 ### Youtube Video
 
 ## HTML Structure
-
 
 - 웹페이지의 영역구분 / 배치
 
@@ -174,10 +174,10 @@ https://www.tablesgenerator.com/html_tables#
   - 세로, 가로 방향 모두 한 가지로 연결되는 흐름 구성
   - 세로 흐름이 가로 흐름보다 우선되어야 함
 
-### HTML Semantic
+### HTML Semantic Element
 https://www.w3schools.com/html/html5_semantic_elements.asp
 
-- Semantic Element Element
+- Semantic Element
   - 영역 구분하는 Element를 의미를 부여해서 사용
 
 ```
@@ -187,13 +187,13 @@ https://www.w3schools.com/html/html5_semantic_elements.asp
 <article></article> : Contents
 <aside></aside> : 부수적인 contents(광고)
 <footer></footer> : 하단 페이지 contents(개인정보처리방침, 이용약관, 사이트맵)
-<figure></figure> : 비주얼 contents 
+<figure></figure> : 비주얼 Contents
 ```
 
 ### HTML Container Element(non-semantic)
 
 - div : (div)ision
-- span 
+- span
   - 의미있게 사용하지 않고 단순히 Group화 할 때 사용
 
 ### HTML Block & Inline Element
@@ -203,7 +203,7 @@ https://www.w3schools.com/html/html_blocks.asp
 
 > Block Element
 >
-> - 부모요소들 기준으로 좌우전체가 채워짐
+> - 부모요소를 기준으로 좌우전체가 채워짐
 > - 항상 줄바꿈되어 표시됨 => 세로방향으로 배치
 
 > Inline Element
@@ -217,7 +217,7 @@ https://www.w3schools.com/html/html_blocks.asp
 ```
 (O)
 <div>
-  <span>Hello World</p>
+  <span>Hello World</span>
 </div>
 
 (X)
@@ -236,7 +236,7 @@ https://www.w3schools.com/html/html_blocks.asp
 - URL : Uniform Resource Locator
   - File Identifier(파일 식별자)
   - 네트워크 상에서 자원(파일)의 위치를 표시하는 자세한 주소
-  - 웹페이지를 찾기위한 주소
+  - 웹페이지를 찾기 위한 주소
 
 > 절대 경로/URL 방식
 ```
@@ -246,7 +246,7 @@ Ex)
 - 출발위치에 상관없이 항상 최종 목적지에 도착할 수 있음
 - 주소의 길이가 길게 표시됨
 
-src="https://media.audleytravel.com/-/media/images/home/north-africa-and-the-middle-east/egypt/country-guides/what-to-see-in-egypt/istock_45122734_giza_pyramids.jpg?q=79&w=1920&h=640 alt=""
+src="https://cphoto.asiae.co.kr/listimglink/6/2014062008023740998_1.jpg"
 
 - 서버주소(도메인)부터 시작 => 자세한 주소 표시
 ```
@@ -265,15 +265,15 @@ Ex)
 
 photo.jpg
 images/photo.jpg
-.../images/photo.jpg
+../images/photo.jpg
 
 - 기준 위치에 따라 필요한 경로/주소만 표시하는 것
 
-- Web - images - photo.jpg
+- web - images - photo.jpg
       - html - page.html(photo.jpg 파일을 포함)
 
 => ../images/photo.jpg
-../ : 상위 풀더 
+../ : 상위 폴더
 ```
 
 ### HTML head
@@ -286,7 +286,7 @@ https://www.w3schools.com/html/html_head.asp
 UTF-8 : universal 문자 인코딩 방식 - 영어를 포함한 세계언어를 표시 가능
 ```
 
-# CSS 
+# CSS
 
 ## CSS Syntax
 https://www.w3schools.com/css/css_syntax.asp
@@ -308,10 +308,10 @@ https://www.w3schools.com/html/html_classes.asp
   - id는 프로그래밍 언어에서 변수와 같은 개념
 - 한 HTML 요소에 여러개의 id 이름을 지정할 수 없음
 
-### Class
+### class
 
 - 같은 HTML 페이지에서 같은 class 이름을 여러번 사용할 수 있음
-- 한 HTML 요소에 여러개의 class 이름을 지정할 수 없음
+- 한 HTML 요소에 여러개의 class 이름을 지정할 수 있음
 
 ```
 // HTML
@@ -321,61 +321,61 @@ https://www.w3schools.com/html/html_classes.asp
 
 // CSS
 - Element 선택자
-p {
+p{
   color:red;
 }
 
 - id 선택자
-#paragraph {
+#paragraph{
   color:blue;
 }
 
 - class 선택자
-.container {
+.container{
   color:green;
 }
 ```
 
-- 선택자 연결 표현 
-  - 선택자의 자세한 표현 
+- 선택자 연결 표현
+   - 선택자의 자세한 표현
 
-  ```
-  <p id="para" class="sentence">단락</p>
+```
+<p id="para" class="sentence">단락</p>
 
-  p#para
+p#para{}
 
 p.sentence{}
 
 #para.sentence{}
-  ```
+```
 
 ## CSS 작성방식
 
 - External : 외부 파일
-- Internal : html 페이지에 css를 작성 - head > style테그를 사용해서 csss 코드 작성
-- inline : HTML 요소에 style attribute를 사용해서 직접 적용
+- Internal : html 페이지에 CSS를 작성 - head > style 태그를 사용해서 CSS 코드 작성
+- Inline : HTML 요소에 style attibute를 사용해서 직접 적용
 
-## color 이론
+## Color 이론
 
 - 색 혼합 방식
 
   - 가산 혼합 : 빛 혼합
-    - 혼합하는 색이 많을수록 밝아짐, 모든 색 혼합 => 횐색
+    - 혼합하는 색이 많을수록 밝아짐, 모든 색 혼합 => 흰색
     - 스크린(화면)
-    - 컬러 모드 : R(ed)G(reen)B(lue)
+    - 컬러모드 : R(ed)G(reen)B(lue)
 
   - 감산 혼합 : 잉크 혼합
     - 혼합하는 색이 많을수록 어두워짐, 모든 색 혼합 => 검정색
     - 프린터
-    - 컬러모드 : C(yan)M(agenta)Y(ellow)(blac)K
+    - 컬러모드 : C(yan)M(agenta)Y(ello)(blac)K
 
-- RGB 컬러모드에서 색 표현 
+- RGB 컬러모드에서 색 표현
   - 각각의 색 표현 용량 : Red(8bit), Green(8bit), Blue(8bit)
   - 24bit true color : 약 1700만개 색 표현
   - 10진수 표현(0~9)
     - rgb(red 값(0~255), green 값(0~255), blue 값(0~255))
     - Ex) rgb(100,50,245)
-  - 16진수 표현 (0~9, A(10),B(11),C(12),D(13),E(14),F(15))
+  - 16진수 표현(0~9, A(10),B(11),C(12),D(13),E(14),F(15))
     - #R(AA)G(0E)B(FF)
     - Ex) #3A79BF
 
@@ -390,3 +390,4 @@ p.sentence{}
 >
 > 용량 계산
 > - 1byte = 8bit가 저장할 수 있는 데이터의 개수 : 256개(0~255)
+
