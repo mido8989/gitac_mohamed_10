@@ -297,3 +297,43 @@ h1 {
   font-size:12px;
 }
 ```
+
+## CSS Selector
+https://www.w3schools.com/html/html_id.asp
+https://www.w3schools.com/html/html_classes.asp
+
+### id
+
+- 같은 HTML 페이지에서 고유한 이름으로 사용되어야 함.(한번만 사용되어야 함) => 논리적 개념
+  - id는 프로그래밍 언어에서 변수와 같은 개념
+- 한 HTML 요소에 여러개의 id 이름을 지정할 수 없음
+
+### Class
+
+- 같은 HTML 페이지에서 같은 class 이름을 여러번 사용할 수 있음
+- 한 HTML 요소에 여러개의 class 이름을 지정할 수 없음
+
+```
+// HTML
+<p id="paragraph">단락</p>
+<div class="container">콘텐츠</div>
+<div id="para" class="section">구조</div>
+
+
+// CSS
+- Element 선택자
+p {
+  color:red;
+}
+
+- id 선택자
+#paragraph {
+  color:blue;
+}
+
+- class 선택자
+.container {
+  color:green;
+}
+
+```
