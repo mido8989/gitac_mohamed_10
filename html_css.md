@@ -349,3 +349,24 @@ p.sentence{}
 
 #para.sentence{}
   ```
+
+## CSS 작성방식
+
+- External : 외부 파일
+- Internal : html 페이지에 css를 작성 - head > style테그를 사용해서 csss 코드 작성
+- inline : HTML 요소에 style attribute를 사용해서 직접 적용
+
+## color 이론
+
+- 색 혼합 방식
+
+  - 가산 혼합 : 빛 혼합
+    - 혼합하는 색이 많을수록 밝아짐, 모든 색 혼합 => 횐색
+    - 스크린(화면)
+    - 컬러 모드 : R(ed)G(reen)B(lue)
+
+  - 감산 혼합 : 잉크 혼합
+    - 혼합하는 색이 많을수록 어두워짐, 모든 색 혼합 => 검정색
+    - 프린터
+    - 컬러모드 : C(yan)M(agenta)Y(ellow)(blac)K
+
