@@ -470,3 +470,34 @@ font-family: 글림, 돋움, sans-serif;
 - 웹폰트 서비스
   - google font : 영문, 한글
   - noonnu font : 한글
+
+- 사용빈도가 높은 폰트
+  - 고딕체
+    - 나눔 바른 고딕 : naver
+    - 본고딕(Noto Sans) : Google + Adobe
+  
+- font-style
+  - italic : 기울임꼴
+
+- font-weight : 굵기
+  - normal, bold
+  - 100, 200, 300, 400, 500, 600, 700, 800, 900
+
+- font-size : 크기
+
+### CSS links
+https://www.w3schools.com/css/css_link.asp
+
+- 4가지 상태 구분을 해서 각각 스타일링을 할 수 있음
+
+### CSS List
+https://www.w3schools.com/css/css_list.asp
+
+- 목록에서 자동으로 생성되는 기호, 숫자 제거하고 사용함
+
+### CSS Table
+https://www.w3schools.com/css/css_table.asp
+
+- Table 셀 테두리 사이의 틈을 없애고 사용
+
+
