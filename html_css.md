@@ -335,5 +335,17 @@ p {
 .container {
   color:green;
 }
-
 ```
+
+- 선택자 연결 표현 
+  - 선택자의 자세한 표현 
+
+  ```
+  <p id="para" class="sentence">단락</p>
+
+  p#para
+
+p.sentence{}
+
+#para.sentence{}
+  ```
