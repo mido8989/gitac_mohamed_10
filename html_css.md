@@ -285,3 +285,15 @@ https://www.w3schools.com/html/html_head.asp
 <meta charset="UTF-8"> : 문자 세트 지정
 UTF-8 : universal 문자 인코딩 방식 - 영어를 포함한 세계언어를 표시 가능
 ```
+
+# CSS 
+
+## CSS Syntax
+https://www.w3schools.com/css/css_syntax.asp
+
+```
+h1 {
+  color:red;
+  font-size:12px;
+}
+```
