@@ -400,7 +400,7 @@ p.sentence{}
 ```
 <div>
   <p>단락</p>
-  </div>
+</div>
 
 div{
   color:red;
@@ -409,13 +409,13 @@ div{
 * div에 적용한 색이 p에도 상속되어 적용됨
 ```
 
-## CSS property(속성)
+## CSS Property(속성)
 
 - HTML Contents Styling
   - Text Contents Styling
   - Multi media Contents Styling
 
-- HTML Structure
+- HTMl Structure Styling
 
 ## Text Contents Styling
 
@@ -425,7 +425,7 @@ https://www.w3schools.com/css/css_text.asp
 - color : text color 지정
 
 ```
-P {
+p{
   color:#10c7e3;
 }
 ```
@@ -449,18 +449,18 @@ P {
   - wrap(default), nowrap
 
 ### CSS Font
-https://www.w3schools.com/css/cs
+https://www.w3schools.com/css/css_font.asp
 
 - font-family : 글꼴 종류
   - 웹페이지에 지정된 Font 파일을 사용자 PC에 설치된 폰트중에서 찾음
     - 웹 안전 폰트 : 굴림, 돋움, Arial, Verdana ...
   - FallBack : 글꼴 대비책
 ```
-font-family: 글림, 돋움, sans-serif;
+font-family:굴림, 돋움, sans-serif;
 
-1. 굴림 폰트를 렌터링 시도
+1. 굴림 폰트를 렌더링 시도
 2. 돋움 폰트를 렌더링 시도
-3. sans-serif(브라우저 기본폰트) 폰트를 렌터링
+3. sans-serif(브라우저 기본폰트) 폰트를 렌더링
 ```
 
 - 웹 폰트
@@ -475,13 +475,13 @@ font-family: 글림, 돋움, sans-serif;
   - 고딕체
     - 나눔 바른 고딕 : naver
     - 본고딕(Noto Sans) : Google + Adobe
-  
+
 - font-style
   - italic : 기울임꼴
 
 - font-weight : 굵기
   - normal, bold
-  - 100, 200, 300, 400, 500, 600, 700, 800, 900
+  - 100,200,300,400,500,600,700,800,900
 
 - font-size : 크기
 
@@ -500,4 +500,10 @@ https://www.w3schools.com/css/css_table.asp
 
 - Table 셀 테두리 사이의 틈을 없애고 사용
 
+## Multi media contents styling
+
+- image
+- video
+
+- 크기 조정, 배치 => Box Styling
 
