@@ -627,3 +627,59 @@ h1{
   */
 }
 ```
+
+- background-attachment 
+  - fixed
+
+- background 축약 표현(shorthand)
+
+- background-size
+  - contain, cover
+
+### 박스 모델 적용
+
+- block : 좌우로 나란히 배치가 안됨
+- inline : 박스모델 제대로 적용되지 않음
+- inline-block : 인라인요소 특징(나란히 배치)과 블럭요소 특징(박스모델이 적용)
+
+- display : 화면에 표시되는 박스 성질은 변경
+  - block, inline, inline-block
+    - inline, inline-block에서 인라인요소의 단점 : 제어할 수 없는 여백
+  - none : 화면에 표시하지 않음
+  - flex
+
+### 박스 크기 계산
+
+- width/height, padding, border가 박스 크기 계산에 적용되는 구성요소
+- box-sizing:border-box; 적용하면 width/height가 박스 전체길이로 적용됨
+
+## HTML Structure Styling - layout
+
+- 박스 배치
+  - 가로
+  - 세로
+
+- 규칙
+  - 가로, 세로 방향으로 배치될 때 한 가지 연결
+
+### Flexbox
+
+- 부모요소에 적용하는 css property
+  - 레이아웃과 연관되는 property
+- 자식요소(배치되는 박스)에 적용하는 css property
+
+- displdy:flex; 적용
+- flexbox 적용했을 때 width/height의 기본 특징이 뒤바뀜
+
+- flex-direction
+  - column(세로), row(가로)
+  - column : 축이 90도 회전 => 가로방향 정렬 : align-items
+
+- flex-wrap
+  - wrap : 자식요소의 크기를 유지하면서 박스가 줄바꿈되어 표시
+
+- justify-content
+  - flex-start, center, flex-end, space-around, space-between
+
+- align-items
+  - flex-start, center, flex-end
