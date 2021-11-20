@@ -688,4 +688,27 @@ h1{
 
 - 뷰포트 설정
 - 미디어 쿼리
+  - @media (at rule에 포함되는 키워드)
+  - 브라우저의 해상도 범위(px)를 구분할때 사용
+  - 열린범위 사용시 해상도 순서
+  - pc 기준 :  pc -> tablet -> smart phone
+  
+
+  ```
+  @media screen and (max-width:1920px)
+
+  @media screen and (max-width:1024px)
+
+  @media screen and (max-width:768px)
+  ```
+
 - 해상도 구역 나누기(break point)
+  - screen 해상도(resolution)
+    - pc 모니터 해상도 1024px ~ 1920px
+    - tablet pc screen 해상도 768px ~ 1024px
+    - smart phone screen 해상도 320px ~ 640px
+
+- 연결되는 범위
+- 열린 범위로 설정
+Ex) < 1920 , < 1024 , < 768
+
