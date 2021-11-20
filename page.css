@@ -119,6 +119,64 @@ font-family: 'Noto Sans KR', sans-serif; */
 }
 
 .group{
+  width:1360px;
   display:flex;
-  justify-content:center;
+  flex-wrap:wrap;
+  margin:0 auto;
+}
+
+.footer{
+  height:285px;
+  background:#141414;
+  color:#fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size:15px;
+  padding:100px 100px 0;
+  box-sizing:border-box;
+  display:flex;
+  justify-content:space-between;
+}
+
+.sub-logo>.title{
+  font-size:18px;
+  font-weight:600;
+  margin-bottom:20px;
+}
+
+/* 이미지 영역에서 이미지가 한줄에 2개식 보이게하는 레이아웃 */
+@media screen and (max-width:1400px) {
+  .group{
+    width:680px;
+  }
+}
+
+/* 이미지 영역에서 이미지가 한줄에 1개식 보이게하는 레이아웃 */
+@media screen and (max-width:700px) {
+  .header{
+    padding:0;
+  }
+  .section1{
+    height:auto;
+    padding:80px 0;
+  }
+  .section-heading{
+    font-size:22px;
+  }
+  .section-paragraph{
+    width:100%;
+    padding:0 30px;
+    box-sizing:border-box;
+  }
+  .group{
+    width:340px;
+  }
+
+  .footer{
+    height:auto;
+    padding:50px 30px;
+    display:block;
+  }
+  .sub-logo{
+    margin-bottom:30px;
+  }
 }
