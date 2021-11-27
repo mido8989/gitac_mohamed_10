@@ -40,6 +40,7 @@
 
 - 변수 / 데이터 / 연산자 
 - 명령문(구문)
+  - 프로그래밍 언어 실행 흐름에 변화를 주는 구문
 - 함수
 - 배열 / 객체 / class
 - 추가 문법
@@ -216,4 +217,24 @@ Ex)
 !true => false
 !false => true
 !(5>3) => false
+```
+
+### JS Condition
+https://www.w3schools.com/js/js_if_else.asp
+
+- if
+  - 식의 결과값이 true일때 코드블럭을 실행, false일때는 실행하지 않음.
+  - true, 0이 아닌 정수
+  - false, 0
+```
+if (condition) {
+  코드블럭
+}
+** condition이 true이면 코드블럭 실행, false 실행하지 않음
+
+Ex)
+if(a<3){}
+if(a+1){}
+if(true){}
+
 ```
