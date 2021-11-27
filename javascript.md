@@ -60,3 +60,18 @@ var a = 0;
 
 ** var(variable) : 변수 선언 키워드
 ```
+
+```
+Naming 표기법
+- 가독성 : 여러 단어를 사용해서 Naming을 할 때 단어와 단어사이를 구분
+
+car-person-name : kebab case (not used because it is indicted as minus in dev lang)
+car_person_name : snake case (mostly used in python lang)
+carPersonName : camel case (mostly used in java, javascript, c++)
+CarPersonName : pascal case (mix using with camel case)
+
+Ex)
+HTML/CSS id, class : kebab case
+file, folder : snake case
+javascript : camel case, pascal case
+```
