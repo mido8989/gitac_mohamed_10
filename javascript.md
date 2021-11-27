@@ -181,3 +181,39 @@ text1 + " " + text2 = "a b"
 
 5 + "a" = "5a"
 ```
+
+- 비교 연산자 
+  - 비교연산의 결과는 참(true)/거짓(false)의 boolean 데이터
+```
+>, <, >=, <=
+
+== : 같다
+=== : 같다(data type check)
+Ex)
+"5" == 5 => true
+"5" === 5 => false
+
+!= : 다르다 
+!== : 다르다(data type check)
+```
+
+- 논리(logical) 연산자
+  - 결과값이 true/false인 연산을 연결
+```
+&(ampersand)
+&& : and - 연결되는 식/값이 하나라도 false가 있으면 전체 결과가 false
+
+|(pipe)
+|| : or - 연결되는 식/값이 모두 false 일때 전체결과가 false
+
+! : not - boolean 데이터의 값을 반대로 만들어줌
+
+Ex)
+5>3 && 3>2 
+=> t  && t
+=> true
+
+!true => false
+!false => true
+!(5>3) => false
+```
