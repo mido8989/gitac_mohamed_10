@@ -301,4 +301,49 @@ function 함수이름([매개변수]){
 ** [] : 생략가능
 ```
 
+- 함수 선언 방식
 
+```
+function 함수(){
+  코드블럭
+}
+
+let(const) 변수이름(함수이름) = function(){
+코드브럭
+}
+
+// 익명(anonymous) 함수
+function(){
+  코드블럭
+}
+** 함수이름을 정의할 필요없이 바로 사용할 때 
+```
+
+### JS Scope
+https://www.w3schools.com/js/js_scope.asp
+
+- 변수 적용되는(인식되는) 범위
+  - 프로그래밍 전체영역에서 선언된 변수 : Global Variable(전역 변수)
+  - 함수, 고드블럭의 영역에서 선언된 변수 : Local Variable(지역 변수)
+
+- 전체영역 : Global Scope
+- 함수영역 : Function Scope
+- 블럭영역 : Block Scope
+
+Global Scope - Global Variable
+Function Scope - Local Variable
+Block Scope - Local Variable
+
+### JS Arrow Function
+https://www.w3schools.com/js/js_arrow_function.asp
+
+```
+let hello = function(){
+  return 'Hello World';
+}
+
+let hello = () => {
+  return 'Hello World';
+}
+```
+- this 객체의 의미가 변경
