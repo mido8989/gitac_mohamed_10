@@ -80,7 +80,7 @@ javascript : camel case, pascal case
 https://www.w3schools.com/js/js_let.asp
 https://www.w3schools.com/js/js_const.asp
 
-- Es6에서 추가된 변수 선언 키워드
+- ES6에서 추가된 변수 선언 키워드
 
 ```
 let a = 0;
@@ -100,7 +100,7 @@ https://www.w3schools.com/js/js_datatypes.asp
 
 
 - 숫자
-  - 숫자 데이터 : 정수, 실수 
+  - 숫자 데이터 : 정수, 실수
 
 - 문자
   - 문자 데이터 : 문자(character), 문자열(string)
@@ -109,7 +109,7 @@ https://www.w3schools.com/js/js_datatypes.asp
   - 참(true), 거짓(false)의 두가지 결과값
 
 - 배열(array)
-  - 데이터가 여러개 나열된 집함
+  - 데이터가 여러개 나열된 집합
 
 - 객체(object)
   - 데이터 집합
@@ -124,10 +124,10 @@ java
 int a = 1; // 정수 형태의 데이터, 1byte 크기
 short b = 1; // 정수 형태의 데이터, 2byte 크기
 float c = 1.5; // 실수 형태의 데이터
-String d = "Hello" // 문자열 데이터
+String d = "Hello"; // 문자열 데이터
 
 ** 변수가 데이터 타입을 구분
-- int 변수에 문제데이터를 저장할 수 없음
+- int 변수에 문자데이터를 저장할 수 없음
 
 javascript
 
@@ -143,30 +143,30 @@ let d = "Hello";
 ### 연산자(operator)
 https://www.w3schools.com/js/js_operators.asp
 
-- 할당(assignment) 연산자 : 
+- 할당(assignment) 연산자
 ```
 =
 ```
 
-- 산술(arithemtic) 연산자 
+- 산술(arithmetic) 연산자
 ```
-  - +, -, *, / (사칙연산자)
-  - % : 나머지 연산자
++, -, *, / (사칙연산자)
+% : 나머지 연산자
 
-  Ex) 
-  5 % 3 = 2
+Ex)
+5 % 3 = 2;
 ```
 
 - 할당 연산자 + 산술연산자 축약 표현
 ```
-a = a+ 3;
+a = a + 3;
 a += 3;
 
-a = a+ 1;
+a = a + 1;
 => a += 1;
-=> a++ (증가연산 increment);
+=> a++; (증가연산 increment)
 
-a = a-1;
+a = a - 1;
 => a -= 1;
 => a--; (감소연산 decrement)
 ```
