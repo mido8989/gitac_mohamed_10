@@ -159,5 +159,19 @@ https://www.w3schools.com/js/js_operators.asp
 
 - 할당 연산자 + 산술연산자 축약 표현
 ```
-a = a+ 1
+a = a+ 3;
+a += 3;
+
+a = a+ 1;
+=> a += 1;
+=> a++ (증가연산 increment);
+
+a = a-1;
+=> a -= 1;
+=> a--; (감소연산 decrement)
+```
+
+- 문자열 연산
+```
+
 ```
