@@ -347,3 +347,30 @@ let hello = () => {
 }
 ```
 - this 객체의 의미가 변경
+
+### JS Array (배열)
+
+- 여러개의 데이터를 하나의 대표이름 변수로 저장할 때 사용하는 데이터 타입
+- 변수이름[인덱스번호]
+- 배열도 객체 데이터
+
+```
+배열 선언
+const cars = ['volvo', 'bmw', 'saab'];
+
+cars[0] = 'volvo';
+cars[1] = 'bmw';
+cars[2] = 'saab';
+
+배열 접근(access)
+- 변경 / 추가 / 삭제
+
+- 변경
+cars[0] = 'hyundai':
+
+- 추가
+cars.push('kia'); => 마지막 위치에 원소(element)를 추가
+
+- 삭제
+cars.pop() => 마지막 원소를 삭제
+```
