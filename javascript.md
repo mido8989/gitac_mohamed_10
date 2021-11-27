@@ -146,9 +146,18 @@ https://www.w3schools.com/js/js_operators.asp
 - 할당(assignment) 연산자 : 
 ```
 =
+```
 
 - 산술(arithemtic) 연산자 
+```
   - +, -, *, / (사칙연산자)
   - % : 나머지 연산자
 
+  Ex) 
+  5 % 3 = 2
+```
+
 - 할당 연산자 + 산술연산자 축약 표현
+```
+a = a+ 1
+```
