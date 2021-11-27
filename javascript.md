@@ -58,7 +58,7 @@ https://www.w3schools.com/js/js_variables.asp
 
 var a = 0;
 
-** var(variable) : 변수 선언 키워드
+** var(variable) : 변수 선언 키워드, Es5
 ```
 
 ```
@@ -75,3 +75,80 @@ HTML/CSS id, class : kebab case
 file, folder : snake case
 javascript : camel case, pascal case
 ```
+
+### js let, const
+https://www.w3schools.com/js/js_let.asp
+https://www.w3schools.com/js/js_const.asp
+
+- Es6에서 추가된 변수 선언 키워드
+
+```
+let a = 0;
+const b = 'abc';
+```
+
+- let
+  - 변수 적용 범위의 변화
+  - 변수 값을 변경 가능
+
+- const(constant-상수)
+  - 변수 적용 범위의 변화
+  - 변수 값을 변경 불가능
+
+### JS Data Type
+https://www.w3schools.com/js/js_datatypes.asp
+
+
+- 숫자
+  - 숫자 데이터 : 정수, 실수 
+
+- 문자
+  - 문자 데이터 : 문자(character), 문자열(string)
+
+- 불리언(boolean - 논리데이터)
+  - 참(true), 거짓(false)의 두가지 결과값
+
+- 배열(array)
+  - 데이터가 여러개 나열된 집함
+
+- 객체(object)
+  - 데이터 집합
+
+- javascript 데이터의 타입을 구분하지 않음
+  - 변수 선언시에 데이터 타입을 구분하지 않음
+  - 데이터 상세 타입을 구분하지 않음
+
+```
+java
+
+int a = 1; // 정수 형태의 데이터, 1byte 크기
+short b = 1; // 정수 형태의 데이터, 2byte 크기
+float c = 1.5; // 실수 형태의 데이터
+String d = "Hello" // 문자열 데이터
+
+** 변수가 데이터 타입을 구분
+- int 변수에 문제데이터를 저장할 수 없음
+
+javascript
+
+var a = 1;
+var b = "Hello";
+let c = 1;
+let d = "Hello";
+
+** 변수가 데이터 타입을 구분하지 않음
+** typescript 언어 - javascript + 데이터 type을 구분
+```
+
+### 연산자(operator)
+https://www.w3schools.com/js/js_operators.asp
+
+- 할당(assignment) 연산자 : 
+```
+=
+
+- 산술(arithemtic) 연산자 
+  - +, -, *, / (사칙연산자)
+  - % : 나머지 연산자
+
+- 할당 연산자 + 산술연산자 축약 표현
