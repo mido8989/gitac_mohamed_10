@@ -222,7 +222,7 @@ Ex)
 ### JS Condition
 https://www.w3schools.com/js/js_if_else.asp
 
-- if
+- if(조건문, 분기문)
   - 식의 결과값이 true일때 코드블럭을 실행, false일때는 실행하지 않음.
   - true, 0이 아닌 정수
   - false, 0
@@ -237,4 +237,40 @@ if(a<3){}
 if(a+1){}
 if(true){}
 
+if(condition) {
+  코드블럭
+} else{
+  코드블럭2
+}
+
+** condition이 true일때는 코드블럭1 실행하고, false일때는 코드블럭2를 실행
+
+if(condition1) {
+
+} else if(condition2){
+
+}
+
+** condition1값이 false일때 condition2를 다시 비교
+
+if(condition1){
+  코드블럭1
+} else if(condition2){
+    코드블럭2
+  } else {
+    코드블럭3
+  }
+```
+
+### JS FOR Loop
+https://www.w3schools.com/js/js_loop_for.asp
+
+- 반복문
+  - 반복 횟수를 정해서 원하는 횟수만큼 반복
+```
+for(let i=0;i<5;i++){
+
+}
+
+** 각각의 명력문 부분을 조절해서 반복횟수를 조정할 수 있음
 ```
