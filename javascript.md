@@ -171,7 +171,13 @@ a = a-1;
 => a--; (감소연산 decrement)
 ```
 
-- 문자열 연산
+- 문자열 연산(연결 연산)
 ```
+"a" + "b" = "ab"
 
+let text1 = "a"
+let text2 = "b"
+text1 + " " + text2 = "a b"
+
+5 + "a" = "5a"
 ```
