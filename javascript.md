@@ -429,6 +429,11 @@ Math.floor(3.5) => 3
 ```
 
   - HTML5 API / Browser API
+    - HTML5 API : DOM(Document Object Model)
+    - Browser API : BOM(Browser Object Model)
+
+- API(Application Porgramming Interface)
+  - 컴퓨터 또는 프로그램 사이의 연결을 할 수 있게 해주는 인터페이스
 
 ### Class
 
@@ -447,7 +452,34 @@ class Car {
   }
 }
 
-
 let car1 = new Car();
 => car1 객체 데이터가 생성
+```
+### Javascript 활용
+
+- HTML Element 제어
+- Event wpdj
+
+### HTML Element 제어 => DOM
+
+- DOM(Document Object Model)
+  - HTML Element를 Javascript에서 제어할 수 있도록 객체로 만든 것
+  - DOM property와 Method를 사용
+
+- HTML Element 접근(Access)
+- 효과(Effect) : Animation(Motion), widget
+- 데이터, 노드(Data, Node); CRUD(Create, Read, Update, Delete)
+
+### Event(변화->신호)
+
+- HTML Document에서 발생되는 변화/신호
+Ex) 마우스클릭, 키보드입력, HTML 렌더링(로딩) 완료 ...
+
+- Event가 발생하면, 발생한 이벤트를 감지해서 원하는 동작(기능) 실행
+
+```
+element.addEventListener('click', function(){});
+
+element : 이벤트가 발생되는 대상 객체
+Ex) click, keydown, load, mouseove ...
 ```
