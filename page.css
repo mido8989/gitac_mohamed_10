@@ -81,6 +81,10 @@ font-family: 'Noto Sans KR', sans-serif; */
   color:#10c9c3;
 }
 
+.hamburger{
+  display:none;
+}
+
 .section1{
   height:315px;
   background:#f6f6f6;
@@ -153,11 +157,43 @@ font-family: 'Noto Sans KR', sans-serif; */
 /* 이미지 영역에서 이미지가 한줄에 1개식 보이게하는 레이아웃 */
 @media screen and (max-width:700px) {
   .header{
+    padding:20px;
+    height:70px;
+    width:100%;
+    position:fixed;
+    top:0;
+    left:0;
+  }
+  .gnb{
+    position:absolute;
+    top:70px;
+    right:0;
+    display:none;
+  }
+  .gnb-list{
+    display:block;
+    padding:50px 50px 50px 0;
+    background:#fff;
+  }
+  .gnb-item {
+    margin-bottom:10px;
+  }
+  .hamburger{
+    display:block;
+    background:none;
+    border:0;
+    width:30px;
+    height:25px;
     padding:0;
+  }
+  .hamburger>img{
+    width:30px;
+    height:25px;
   }
   .section1{
     height:auto;
-    padding:80px 0;
+    padding:80px;
+    margin-top:70px;
   }
   .section-heading{
     font-size:22px;
