@@ -416,3 +416,17 @@ const person = {
 person.age = 22;
 person.fullName() // 메소드 호출
 ```
+
+- 객체 데이터에서 this의 의미 
+  - method에서 property를 사용할 때 property가 소속된 객체를 의미
+
+- 내장 객체(build-in object)
+  - javascript API
+    - String, Number, Array, Math ...
+```
+let a = 3.5;
+Math.floor(3.5) => 3
+```
+
+  - HTML5 API / Browser API
+
