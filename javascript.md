@@ -430,3 +430,24 @@ Math.floor(3.5) => 3
 
   - HTML5 API / Browser API
 
+### Class
+
+- 객체 데이터를 생성할 수 있게 해주는 설계도
+- 클래스를 사용해서 여러개의 객체 데이터를 생성할 수 있음
+- constructor : 생성자 함수 - property를 생성
+
+```
+class Car {
+  constructor(){
+    this.name = 'john';
+    this.year = 2021
+  }
+  method이름(){
+    // 실행 코드
+  }
+}
+
+
+let car1 = new Car();
+=> car1 객체 데이터가 생성
+```
