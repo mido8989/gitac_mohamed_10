@@ -5,16 +5,19 @@ hamburger.addEventListener('click', function(){
   gnb.classList.toggle('active');
 });
 
-let section = document.querySelector('.section1');
 let carousel = document.querySelectorAll('.carousel');
+const play = document.querySelector('.btn-play');
+const pause = document.querySelector('.btn-pause');
+
 
 let current = 0;
 let next = 1;
 let prev = 2;
 
-console.log(carousel);
+let intervalNumber = 0;
 
-section.addEventListener('click', function(){
+
+function move(){
 
   //prev 변수 값이 carousel 개수 범위를 벗어났는지 체크
   if(prev>carousel.length-1){
@@ -32,5 +35,13 @@ section.addEventListener('click', function(){
   current = next;
   next = prev;
   prev++;
+};
 
+
+intervalNumber = setInterval(function(){
+  move();
+}, 2000);
+
+pause.addEventListener('click', function(){
+  clearInterval(intervalNumber);
 });
