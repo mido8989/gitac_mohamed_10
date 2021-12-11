@@ -91,7 +91,35 @@ font-family: 'Noto Sans KR', sans-serif; */
   text-align:center;
   padding-top:95px;
   box-sizing:border-box;
+  position:relative;
 }
+.carousel{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  padding-top:95px;
+  box-sizing:border-box;
+}
+
+.carousel.current{
+  left:0;
+  transition:left 1s;
+}
+
+.carousel.prev{
+  left:-100%;
+  transition:left 1s;
+
+}
+
+.carousel.next{
+  left:100%;
+}
+
+
+
 
 .section-heading{
   font-size:38px;
@@ -160,7 +188,7 @@ font-family: 'Noto Sans KR', sans-serif; */
     padding:20px;
     height:70px;
     width:100%;
-    position:fixed;
+    position:fixed; /* position:fixed, absolute 가로길이가 자식요소에 맞춰짐 */
     top:0;
     left:0;
   }
